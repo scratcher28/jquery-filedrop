@@ -358,7 +358,7 @@
       }
 
       function afterAll() {
-        return opts.afterAll();
+        return opts.afterAll(files_count);
       }
 
       function dragEnter(e) {
